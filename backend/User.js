@@ -7,6 +7,7 @@
      last_name:{type:String,require:true},
      father_name:{type:String,require:true},
      phone:{type:String,require:true,unique:true},
+    //  Documents:{type:String,data:Buffer, contentType: String},
     email:{type:String,require:true,unique:true},
     Address:{type:String,require:true}
      
